@@ -1,0 +1,106 @@
+:root {
+    --unnamed-color-000000: #000000;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-font-size-18: 14px; /* Reduced from 18px */
+    --unnamed-font-family-manrope: 'Manrope', sans-serif;
+  }
+  
+
+  *{
+
+    h4,p{
+        padding:2px 0px;
+        margin:0px;
+    }
+  }
+  .sidebar {
+    width: 99%;
+    height: 5%;
+    margin: auto;
+    margin-top: 10px;
+
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .navigation li {
+    margin: 15px 0;
+  }
+  
+  .navigation a {
+    color: var(--unnamed-color-000000);
+    text-decoration: none;
+    font-size: var(--unnamed-font-size-18);
+  }
+  
+
+  
+  .profile {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+  }
+  
+  .profile-wrapper {
+    display: flex;
+    gap:10px;
+    align-items: center;
+  }
+  
+  .profile-wrapper {
+    align-items: center;
+  }
+
+  .profile-data-wrapper{
+    padding:0px 10px;
+    border-right: 1px solid lightgray;
+
+
+  }
+  
+  .DoctorName {
+    color: var(--unnamed-color-000000);
+    font-size: 1em;
+  }
+  
+  .designation {
+    font-size: 1em;
+
+    color: var(--unnamed-color-000000);
+  }
+  
+  .options-wrapper {
+    display: flex !important;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    gap: 7px;
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  .active {
+    background-color: #01f0d0;
+    border-radius: 20px;
+  }
+  

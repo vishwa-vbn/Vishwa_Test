@@ -1,0 +1,102 @@
+.patient-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.search-head-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5%;
+  padding: 5px 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.search-head-wrapper p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.search-head-wrapper img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.patient-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.patient-item:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.patient-item:hover {
+  background-color: #f9f9f9;
+}
+
+.patient-info {
+  display: flex;
+  align-items: center;
+}
+
+.patient-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.patient-details-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.patient-meta {
+  font-size: 14px;
+  color: #777;
+}
+
+.horizontal-dots {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.patient-items-wrapper {
+  height: 95%;
+  overflow-y: scroll;
+}
+
+.patient-items-wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+
+.patient-items-wrapper::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+.patient-items-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}

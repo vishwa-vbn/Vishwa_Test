@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+  height: 95%;
+  overflow: hidden;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.patients-list-section {
+  width: 350px;
+  border-radius: 15px;
+  height: inherit;
+  background-color: var(--unnamed-color-ffffff);
+
+  padding: 20px;
+}
+
+.patient-details-section {
+  height: 100%;
+
+  flex-grow: 1;
+}
+
+.patient-details-section::-webkit-scrollbar {
+  display: none;
+}
